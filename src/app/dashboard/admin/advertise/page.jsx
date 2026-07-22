@@ -1,7 +1,7 @@
 import { requireRole } from '@/lib/core/session';
 import { getAdminTickets } from '@/lib/api/tickets';
 import AdvertiseTable from '@/components/dashboard/AdvertiseTable';
-
+ 
 export default async function AdvertiseTicketsPage() {
     await requireRole('admin');
     const tickets = (await getAdminTickets()) || [];
