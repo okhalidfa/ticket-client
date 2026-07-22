@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from 'next/link'; 
 import { Bus, Facebook, Mail, Phone, CreditCard } from 'lucide-react';
 
 export default function Footer() { 
