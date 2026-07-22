@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { useRouter } from 'next/navigation';
+import { useRouter } from 'next/navigation'; 
 import { useSession, updateUser } from '@/lib/auth-client';
 
 export default function ProfilePage() {
