@@ -16,7 +16,7 @@ export default async function MyBookingsPage({ searchParams }) {
         redirect('/dashboard/user/bookings');
     }
 
-    const bookings = (await getUserBookings(user.email.toLowerCase())) || [];
+    const bookings = (await getUserBookings(user.email)) || [];
 
     return (
         <div>
