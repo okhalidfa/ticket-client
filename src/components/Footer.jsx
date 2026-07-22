@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { Bus, Facebook, Mail, Phone, CreditCard } from 'lucide-react';
 
-export default function Footer() {
+export default function Footer() { 
     return (
         <footer className="border-t border-slate-200 bg-slate-50 dark:border-slate-800 dark:bg-slate-900">
             <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
