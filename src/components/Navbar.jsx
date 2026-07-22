@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import Link from 'next/link';
+import Link from 'next/link'; 
 import { usePathname, useRouter } from 'next/navigation';
 import { Bus, Menu, X, Moon, Sun } from 'lucide-react';
 import { useSession, signOut } from '@/lib/auth-client';
