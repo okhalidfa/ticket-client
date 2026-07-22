@@ -3,7 +3,7 @@ import { requireRole } from '@/lib/core/session';
 import { getUserBookings } from '@/lib/api/bookings';
 import { confirmPayment } from '@/lib/actions/bookings';
 import BookingCard from '@/components/dashboard/BookingCard';
- 
+  
 export default async function MyBookingsPage({ searchParams }) {
     const user = await requireRole('user');
     const params = await searchParams;
