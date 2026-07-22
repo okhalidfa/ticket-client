@@ -3,5 +3,5 @@ import ProfileCard from '@/components/dashboard/ProfileCard';
 
 export default async function UserProfilePage() {
     const user = await requireRole('user');
-    return <ProfileCard user={user} />;
+    return <ProfileCard user={user} />; 
 }
